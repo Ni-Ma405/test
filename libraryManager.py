@@ -24,6 +24,7 @@ else:
 for books in books_list:
         print(books)
 
+
 remove_title = input("Enter the title og the book to remove or else enter to skip:")
 if remove_title in books_list:
     remove_author = books_dict[remove_title]
